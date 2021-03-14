@@ -1,0 +1,41 @@
+﻿/*Стили для таблицы*/
+table {
+    width: 50%;
+    border-spacing: 0px;
+    box-shadow: 1px 1px 5px 0px;
+	border: 4px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse;
+}
+
+tr {
+    text-align: center;
+}
+
+tr:nth-child(2n) {background: #e8edff;}
+tr:hover td {background: #9090e8;}
+tr:nth-child(odd){
+	background: #d0e3f7;
+}
+
+td{
+	padding: 5px; /* Поля в ячейках */
+    border: 4px double black;
+    vertical-align: top; /* Выравнивание по верхнему краю ячеек */
+    text-align: center;
+    min-height: 30px;
+}
+
+input[type="button"] {
+	background: #98FB98;
+	font-size: 14px;
+	border-radius: 8px;
+	height: 20px;
+}
+
+body{
+    
+	background:url(tekstura-siniy-cvet-fon.jpg);
+    
+	font: 14pt Tahoma;
+
+}
